@@ -8,12 +8,16 @@
 #define DEBUG
 #include "../common/DEBUG.h"
 #include <assert.h>
+#include "everything_about_stack.h"
+#include "stack_operations.h"
+#include "stack_protection.h"
 
 struct  node_t
 {
     char* answer;
     node_t* left;
     node_t* right;
+    int hold;
 };
 
 
@@ -34,7 +38,14 @@ enum ak_errors
     NO_ROOT,
 };
 
+struct path
+{
+    node_t* node;
+    char c;
+};
+
 #define CANARY_L 0xB055
 #define CANARY_R 0xDEAD
+#define STRSIZE 150
 
 #endif

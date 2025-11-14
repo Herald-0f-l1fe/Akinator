@@ -1,0 +1,17 @@
+digraph G {
+splines=ortho
+node [style=filled, fillcolor=red, fontcolor=white, shape=octagon]
+n0x503000000130 [shape=Mrecord, label ="{pointer = 0x503000000130 | Linal |{ left = (nil) | right = (nil) }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x5030000000d0 [shape=Mrecord, label ="{pointer = 0x5030000000d0 | 2 sem |{ left = 0x503000000130 | right = 0x503000000160 }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x503000000160 [shape=Mrecord, label ="{pointer = 0x503000000160 | Angem |{ left = (nil) | right = (nil) }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x503000000070 [shape=Mrecord, label ="{pointer = 0x503000000070 | GEO |{ left = 0x5030000000d0 | right = 0x503000000100 }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x503000000100 [shape=Mrecord, label ="{pointer = 0x503000000100 | Matan |{ left = (nil) | right = (nil) }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x503000000040 [shape=Mrecord, label ="{pointer = 0x503000000040 | Difficult |{ left = 0x503000000070 | right = 0x5030000000a0 }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x5030000000a0 [shape=Mrecord, label ="{pointer = 0x5030000000a0 | It is unknown who? |{ left = (nil) | right = (nil) }}", style=filled, fontcolor="black", fillcolor="white"];
+n0x503000000040->n0x503000000070[color="green"]
+n0x503000000070->n0x5030000000d0[color="green"]
+n0x5030000000d0->n0x503000000130[color="green"]
+n0x5030000000d0->n0x503000000160[color="green"]
+n0x503000000070->n0x503000000100[color="green"]
+n0x503000000040->n0x5030000000a0[color="green"]
+}

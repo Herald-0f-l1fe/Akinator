@@ -1,0 +1,1 @@
+( "KHL" ( "West" ( "Bobrov" ( "SKA" nil nil ) ( "Spartak" nil nil ) ) ( "Tarasov" ( "CSKA" nil nil ) ( "Dynamo Moscow" nil nil ) ) ) ( "East" ( "Kharlamov" ( "Ak Bars" nil nil ) ( "Metallurg" nil nil ) ) ( "Chernyshev" ( "Avangard" nil nil ) ( "Salavat Yulaev" nil nil ) ) ) ) 

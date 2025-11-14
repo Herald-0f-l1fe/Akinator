@@ -1,0 +1,1 @@
+( "Difficult" ( "GEO" ( "2 sem" ( "Linal" nil nil ) ( "Angem" nil nil ) ) ( "Matan" nil nil ) ) ( "It is unknown who?" nil nil ) ) 
